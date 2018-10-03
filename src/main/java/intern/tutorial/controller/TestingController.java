@@ -27,6 +27,7 @@ public class TestingController {
     @PostMapping("/post_by_param1")
     public String handleParameter(Param parameter, Model model) {
 
+
         String one = parameter.getParam1();
         String two = parameter.getParam2();
         String three = parameter.getParam3();
