@@ -48,7 +48,7 @@ public class TestingController {
     //Parameter 3
     @RequestMapping(value = "/post_by_param3", method = RequestMethod.POST)
     public String parameter3(@RequestParam("param1") String paramm1, @RequestParam("param2") String paramm2, @RequestParam("param3") String paramm3) {
-        //System.out.println("Param : " + param);
+
 
         return ("Paramater 1 : " + paramm1 + "\n" + "Parameter 2 : " + paramm2 + "\n" + "Parameter 3 : " + paramm3);
 
