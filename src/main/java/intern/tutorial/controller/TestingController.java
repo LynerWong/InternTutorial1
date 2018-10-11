@@ -21,7 +21,6 @@ import java.util.List;
 @RestController
 public class TestingController {
 
-
     //Parameter 1 (Post Method)
     @PostMapping("/post_by_param1")
     public String handleParameter(Param parameter, Model model) {
