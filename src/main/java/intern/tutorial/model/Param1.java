@@ -13,6 +13,7 @@ public class Param1 {
     private String param2;
     private int param3;
     private int param4;
+    private String param5;
 
 }
 
